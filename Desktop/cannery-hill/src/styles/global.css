@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+}
+
+
+/* Navbar */
+nav {
+    padding: .5rem 0;
+    /* margin-bottom: 1rem; */
+    background: #f1f1f1;
+}
+
+nav .links {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+nav .links a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav .links a:hover {
+    color: #946226;
+}
+
+nav .links .main-logo {
+    width: 90px;
+}
